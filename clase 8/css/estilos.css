@@ -1,0 +1,55 @@
+h1{
+    color:blue; text-align: center;font-size: 100px;
+         }
+
+#titulo{
+    color: crimson;
+    text-align: center;
+    }
+.parrafo{
+    text-align: center;
+
+    }
+
+    .grande{
+        font-size: 50px;
+    }
+
+    *{
+        background-color: gray;
+    
+    }
+    p.centrar{
+        text-align: center;
+    }
+
+    .rojo{
+         border: solid firebrick;
+        border-width: 10px 5px 3px 2px;
+        border-radius: 10px;
+     }
+    
+    
+    
+    .rosa{
+        border:  dashed hotpink;
+        border-width: thick 10px 5px 3px 2px;
+        border-radius: 30px;
+    
+    }
+    
+    
+    
+    .amarillo{
+        border: double gold;
+         border-width:medium 10px ;
+         border-radius: 100px; 
+    }
+    
+    
+    
+    .azul{
+        border: thin turquoise;
+        border-width: thin 10px;
+        border-radius: 15px
+     } 
