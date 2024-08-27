@@ -1,0 +1,18 @@
+h1{ text-align: center;
+    color: #e63946;}
+.caja{padding:10px;
+    border-width: 100px;
+    max-height: 50px;
+    text-align: center;
+    font-size: 10px;
+    float: left;
+}
+.roja{background-color: crimson;}
+.rosa{background-color: deeppink;}
+.violeta{background-color:rgb(131,56,236);}
+.transparencia{background-color:rgb(131,56,236,.5) ;}
+.hexadecimal{background-color:#0091ad88;}
+.hsl{background-color:hsl(195, 100%, 50%);}
+*{
+    background-color: dimgray;
+}
