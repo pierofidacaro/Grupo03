@@ -13,18 +13,18 @@ th{
     text-align: left;
 }
 caption{
-    color:#19f3a6;
+    color:#379b69;
     font-size: 45px;
     line-height: 70px;
 
 }
 th{
     text-align: left;
-    color: #52df22;
+    color: #ad4343;
     background-color: #1d3557;
 
 }
 tr:nth-child(even){
-    background-color: #f1faee;
+    background-color: #e6e62f;
 
 }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospedaje</title>
+</head>
+<body>
+    <form>
+
+        <fieldset>
+            <legend>ingrese sus datos para encontrale un alojamiento adecuado:</legend>
+       
+       
+       
+        <label> Nombre:</label>
+        <input placeholder="Escribe tu nombre" required="true" type="text" id="nombre" name="nombre">
+        <br/>
+        <label> Escribe tu apellido:</label>
+        <input placeholder="Escribe tu apellido" required="true" type="text" id="apellido" name="apellido">
+        <br/>
+       
+        <br/>
+        <label> :</label>
+        <input placeholder="Escribe tu email" type="email" id="email" name="email" required="true"/>
+        <br/>
+        <label> cantidad de huespedes:</label>
+        <input type="number" id="cantidad" name="huesped" required="true"/>
+        <br/>
+    
+       <br/>
+        <label>alogamiento</label>
+        <input type="checkbox" id="casa" name="alogamiento" value="casa" />
+        <label>casa</label>
+        <input type="checkbox" id="hotel" name="alogamiento" value="hotel" />
+        <label>hotel</label>
+        <br/>
+        <label>atraccion favorita</label>
+        <select id="atraccion" name="atraccion">
+        <option value="playa">Playa</option>
+        <option value="campo">campo</option>
+        <option value="monumento">monumento</option>
+        <option value="ciudad">ciudad</option>
+        </select>
+        <br/>  
+        <label>Comentarios</label><br/>
+        <textarea id="comentario" name="comentario" rows="2" cols="30"></textarea>
+        <br/>
+        
+        <input type="submit" value="Enviar"/> 
+        <input type="reset" value="Restablecer valores">
+    </fieldset>
+    
+    
+    </form>
+       
+</body>
+</html>  
