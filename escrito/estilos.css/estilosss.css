@@ -1,0 +1,21 @@
+h1{
+    color: #241334d4;
+    background-color: rgb(27, 133, 214);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+      word-spacing: 3px;
+}
+body{
+    background-color:  rgb(190, 218, 245);
+    text-align: center;
+   
+    
+}
+.do{
+    text-align: center;
+    margin: 0;
+    font-size: large;
+    
+}

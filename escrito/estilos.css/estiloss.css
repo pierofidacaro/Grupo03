@@ -1,9 +1,57 @@
-body{
-    font-size: 2,5rem;
+h1{
+    color: #241334d4;
+    background-color: rgb(27, 133, 214);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+      word-spacing: 3px;
 }
+
+body{
+    
+    color: cornsilk;
+    background-image: url("/escrito/img/Uruguay.jpeg")
+}
+.caja{
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;}
+ 
+.cajas {
+    list-style-type: none;
+    background-color: #219ebc;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+
+}
+.cajas li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+.cajas li a :hover{background-color: #1d3557;}
+
+  
+
+ul{
+    text-indent: 60px;
+
+}
+
+ol{
+    text-align: center;
+}
+
 table{
-    border:1px solid black
-    border-collapse:collapse;
+    border:1px solid black;
+    border-collapse: collapse;
     margin:auto;
 }
 
@@ -13,7 +61,7 @@ td{
 }
 
 thead{
-    background-color: black;
+    background-color:black;
     color:white;
 }
 
@@ -22,5 +70,8 @@ thead{
 }
 tbody>td:first-child{
     background-color: yellow;
+}
+tr{
+    text-decoration: #0d0f0f;
 }
 
